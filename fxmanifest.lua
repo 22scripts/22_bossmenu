@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
-version '0.0.1'
+version '0.1.0'
 author '22scripts, xLaugh'
 
 escrow_ignore {
