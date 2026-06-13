@@ -17,6 +17,7 @@ if Config.Framework == 'esx' then
         PlayerData = data
     end)
 
+    RegisterNetEvent('esx:playerLoaded')
     AddEventHandler('esx:playerLoaded', function(data) PlayerData = data end)
     AddEventHandler('esx:setJob',       function(job)  PlayerData.job = job end)
 else
